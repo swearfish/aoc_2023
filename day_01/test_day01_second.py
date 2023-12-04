@@ -41,6 +41,6 @@ def test_sample():
 
 
 def test_puzzle_input():
-    input_file = read_file_to_list("day_02/puzzle.txt")
+    input_file = read_file_to_list("day_01/puzzle.txt")
     calibration_value = get_calibration_value(input_file)
     assert calibration_value == 53592
