@@ -1,5 +1,5 @@
-from .day01 import find_numbers, get_relevant_number, get_calibration_value
-from .utils import read_file_to_list
+from .day01_first import find_numbers, get_relevant_number, get_calibration_value
+from utils import read_file_to_list
 
 
 def test_find_numbers():
