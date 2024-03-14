@@ -1,0 +1,36 @@
++case 1: full match
+    aaaaaaaaa
+    bbbbbbbbb
+    +++++++++
++case 2: a inside b
+      aaaaa
+    bbbbbbbbb
+    bb+++++bb
++case 3: b inside a
+    aaaaaaaaa
+       bbbb
+    aaa++++aa
++case 4:
+    aaaaaaaaa
+    bbbbb
+    +++++aaaa
++case 5:
+    aaaaaaaaa
+         bbbb
+    aaaaa++++
++case 6:
+    aaaaaaaaa
+   bbbb
+   b+++aaaaaa
++case 7:
+    aaaaaaa
+        bbbbbb
+    aaaa+++aaa
++case 8:
+    aaaa
+    bbbbbbbbb
+    ++++bbbbb
++case 9:
+        aaaaa
+    bbbbbbbbb
+    BBBB+++++
